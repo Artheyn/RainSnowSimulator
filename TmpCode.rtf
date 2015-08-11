@@ -1,0 +1,140 @@
+{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf460
+{\fonttbl\f0\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red0\green116\blue0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\deftab800
+\pard\tx800\pardeftab800\ql\qnatural\pardirnatural
+
+\f0\fs32 \cf2 \CocoaLigature0 //	glVertexPointer(2, GL_FLOAT, 0, squareVertices);\cf0 \
+\cf2 //	glColorPointer(4, GL_UNSIGNED_BYTE, 0, squareColors);\cf0 \
+\cf2 //	\cf0 \
+\cf2 //	glDrawArrays(GL_POINTS, 0, 1);\cf0 \
+	\
+	\
+	\cf2 //Vect2* gravity = [[Vect2 alloc] initWithX:-10.0f andY:0.0f];\cf0 \
+	\
+	\cf2 //float time = 0.001f;\cf0 \
+\
+\cf2 //	Vect2* tmp = [[Vect2 alloc] init];\cf0 \
+\cf2 //	tmp = [tmp multScalar:time withVector:pDirect.velocity];\cf0 \
+\cf2 //	\cf0 \
+\cf2 //	\cf0 \
+\cf2 //	[pDirect.velocity plusEqualV: [tmp multScalar:time withVector:gravity]];\cf0 \
+\cf2 //\cf0 \
+\cf2 //	[pDirect.position plusEqualVector:tmp];\cf0 \
+	\
+	\cf2 //[pDirect moveWithTime:time andExtForces:gravity];\
+\
+\
+\
+\
+\cf0 	\cf2 //Display a particle\cf0 \
+	\cf2 //[pDirect display];\cf0 \
+	\
+	\
+	\
+	\cf2 //    const GLfloat squareVertices[] = \{\cf0 \
+	\cf2 //        -0.5f, -0.5f,\cf0 \
+	\cf2 //        //0.5f,  -0.5f,\cf0 \
+	\cf2 //        //-0.5f,  0.5f,\cf0 \
+	\cf2 //        //0.5f,   0.5f,\cf0 \
+	\cf2 //    \};\cf0 \
+	\cf2 //	\cf0 \
+	\cf2 //    const GLubyte squareColors[] = \{\cf0 \
+	\cf2 //		0, 255, 0, 255\cf0 \
+	\cf2 //        //1, 1, 1, 1,\cf0 \
+	\cf2 //        //1, 1, 0, 1,\cf0 \
+	\cf2 //        //0, 1, 0, 1,\cf0 \
+	\cf2 //		//1, 1, 1, 1,\cf0 \
+	\cf2 //        //0,   0, 255, 255,\cf0 \
+	\cf2 //    \};\cf0 \
+\cf2 //	GLfloat aScalar = 2.0f;\cf0 \
+\cf2 //\cf0 \
+\cf2 //	Point2f* aPoint = [[Point2f alloc] init];\cf0 \
+	\
+	\
+\cf2 //	-(void) plusEqualScalar:(GLfloat) aScalar;\cf0 \
+\cf2 //	-(void) plusEqualVector:(Vect2*) aVector;\cf0 \
+	\
+\cf2 //	Vect2* aVector = [[Vect2 alloc] init];\cf0 \
+\cf2 //	printf("\\n\\nhuhu");\cf0 \
+\cf2 //		printf("aVector : x:%f, y:%f \\n", aVector.x, aVector.y);\cf0 \
+\cf2 //	[aVector plusEqualS:aScalar];\cf0 \
+\cf2 //	\cf0 \
+\cf2 //	printf("aVector : x:%f, y:%f \\n", aVector.x, aVector.y);\cf0 \
+\cf2 //	\cf0 \
+\cf2 //	[aVector plusEqualV:aVector];\cf0 \
+\cf2 //	\cf0 \
+\cf2 //	printf("aVector : x:%f, y:%f \\n", aVector.x, aVector.y);\cf0 \
+\cf2 //	\cf0 \
+\cf2 //	aVector = [aVector multScalar:aScalar withVector:aVector];\cf0 \
+\cf2 //		printf("MultaVector : x:%f, y:%f \\n", aVector.x, aVector.y);\cf0 \
+\cf2 //	\cf0 \
+\cf2 //	\cf0 \
+\cf2 //	[aPoint plusEqualVector:aVector];\cf0 \
+\cf2 //	printf("aPoint : %f, %f\\n", aPoint.x, aPoint.y);\cf0 \
+	\
+	\
+\cf2 //	-(Vect2*)	multScalar:(GLfloat) aScalar withVector:(Vect2*) aVector;\cf0 \
+\cf2 //	-(void)		plusEqualV:(Vect2*) aVector;\cf0 \
+\cf2 //	-(void)		plusEqualS:(GLfloat) aScalar;\cf0 \
+	\
+	\
+	\
+	\
+	\
+	\
+	\
+	\
+	\cf2 //[pDirect release];\cf0 \
+	\
+	\
+	\
+	\cf2 //	Vect2* v = [[Vect2 alloc] init];\cf0 \
+	\
+	\
+    \cf2 //glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);\cf0 \
+	\
+	\cf2 //	Point2f* p = [[Point2f alloc] init:0.25f y:0.25f];\cf0 \
+	\cf2 //	Vect2* vec = [[Vect2 alloc] init:0.0f yP:0.0f];\cf0 \
+	\cf2 //	Particle* pa = [[Particle alloc] init:p velo:vec ];\cf0 \
+	\cf2 //	\cf0 \
+	\cf2 //	[pa display];\cf0 \
+	\
+	\
+	\cf2 //	//[self setAnimationInterval:1.0/6.0];\cf0 \
+	\cf2 //	\cf0 \
+	\cf2 ////OR\cf0 \
+	\cf2 //	Vect2 *v = [[Vect2 alloc] init];\cf0 \
+	\cf2 //	\cf0 \
+	\cf2 //	//OR\cf0 \
+	\cf2 //	v.x = 0.5f;\cf0 \
+	\cf2 //	v.y = 0.5f;\cf0 \
+	\cf2 //	//OR\cf0 \
+	\cf2 //	[v setX:0.5f];\cf0 \
+	\cf2 //	[v setY:0.5f];\cf0 \
+	\cf2 //\cf0 \
+	\cf2 ////OR	\cf0 \
+	\cf2 //	//Vect2 *v = [[Vect2 alloc] init:0.5f yP:0.5f];\cf0 \
+	\cf2 //	\cf0 \
+	\cf2 //	// To display the current vector\cf0 \
+	\cf2 ////	const GLfloat currentVect[] = \cf0 \
+	\cf2 ////	\{\cf0 \
+	\cf2 ////		[v x], [v y],\cf0 \
+	\cf2 ////	\};\cf0 \
+	\
+	\cf2 //	// Draw the points include in testPoint\cf0 \
+	\cf2 //	glVertexPointer(2, GL_FLOAT, 0, testPoint);\cf0 \
+	\cf2 //	glDrawArrays(GL_POINTS, 0, 1);\cf0 \
+	\cf2 //	\cf0 \
+	\cf2 //	\cf0 \
+	\cf2 //	// Draw the current Vector\cf0 \
+	\cf2 ////	glVertexPointer(2, GL_FLOAT, 0, currentVect);\cf0 \
+	\cf2 //	glVertexPointer(2, GL_FLOAT, 0, [v arrayValue]);\cf0 \
+	\cf2 //	glDrawArrays(GL_POINTS, 0, 1);\cf0 \
+	\cf2 //	\cf0 \
+	\cf2 //	[v setX:-0.5f];\cf0 \
+	\cf2 //	[v setY:0.5f];\cf0 \
+	\cf2 //	\cf0 \
+	\cf2 //	glVertexPointer(2, GL_FLOAT, 0, [v arrayValue]);\cf0 \
+	\cf2 //	glDrawArrays(GL_POINTS, 0, 1);}
